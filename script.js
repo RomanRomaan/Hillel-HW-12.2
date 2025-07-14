@@ -8,6 +8,6 @@ btns.addEventListener("click", function (event) {
     if (event.target.tagName === "BUTTON") {
 
         const clickedItemText = event.target.textContent;
-        alert("Cliked on button: " + clickedItemText);
+        alert("Clicked  on button: " + clickedItemText);
     }
 });
